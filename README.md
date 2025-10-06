@@ -1,8 +1,25 @@
-# Welcome to your Expo app 👋
+# Welcome to the Expo App Test
+
+## Test Objective
+
+You have a simple Expo app that integrates a custom Kotlin Expo module to fetch the device's battery level. The codebase has some bugs and potential issues.
+
+**Task**: Review the provided codebase and prioritise & fix up to 2 bugs or potential issues in each of the Expo app and the Android native module. For each improvement, breifly describe the following in dot-point form:
+
+* Why you prioritized it.
+* What could go wrong if left unfixed.
+* Why you implemented the fix in the way you did.
+* How you'd prevent similar issues in the future.
+
+**Deliverables:**
+* Updated code files with Git commit history (delivered via Github or ZIP file).
+* The brief report listing your fixes and rationale.
+
+## Get started
 
 This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
 
-## Get started
+...with a local expo module added on using the [Expo Modules API](https://docs.expo.dev/modules/third-party-library/).
 
 1. Install dependencies
 
@@ -10,41 +27,9 @@ This is an [Expo](https://expo.dev) project created with [`create-expo-app`](htt
    npm install
    ```
 
-2. Start the app
+2. Start the app (Android device or simulator required)
 
    ```bash
-   npx expo start
+   expo run android
    ```
 
-In the output, you'll find options to open the app in a
-
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
-
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
-
-## Get a fresh project
-
-When you're ready, run:
-
-```bash
-npm run reset-project
-```
-
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
-
-## Learn more
-
-To learn more about developing your project with Expo, look at the following resources:
-
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
-
-## Join the community
-
-Join our community of developers creating universal apps.
-
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
