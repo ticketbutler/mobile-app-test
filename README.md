@@ -4,7 +4,7 @@
 
 You have a simple Expo app that integrates a custom Kotlin Expo module to fetch the device's battery level. The codebase has some bugs and potential issues.
 
-**Task**: Review the provided codebase and prioritise & fix up to 2 bugs or potential issues in each of the Expo app and the Android native module. For each improvement, breifly describe the following in dot-point form:
+**Task**: Pull the provided codebase and run the app using the "Get started" instructions. Prioritise and implement fixes for up to 2 bugs or potential issues in both 1) the Expo app and 2) the Android native module. For each improvement, concisely describe the following in dot-point form:
 
 * Why you prioritized it.
 * What could go wrong if left unfixed.
@@ -13,7 +13,7 @@ You have a simple Expo app that integrates a custom Kotlin Expo module to fetch 
 
 **Deliverables:**
 * Updated code files with Git commit history (delivered via Github or ZIP file).
-* The brief report listing your fixes and rationale.
+* A doc or text file including your rationale for the changes
 
 ## Get started
 
