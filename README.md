@@ -33,8 +33,7 @@ This is an [Expo](https://expo.dev) project created with [`create-expo-app`](htt
    expo run android
    ```
 
-After the first run you could get an error. In this case, create a file `local.properties` in the `android` folder 
-and add the path to the Android SDK
+After the first run you could get an error. In this case, create a file `local.properties` in the `android` folder (the one that was created after you started the app `/android`) and add the path to the Android SDK
 
    ```bash
    sdk.dir=/Users/<username>/Library/Android/sdk
