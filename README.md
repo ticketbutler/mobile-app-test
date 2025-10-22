@@ -13,7 +13,7 @@ You have a simple Expo app that integrates a custom Kotlin Expo module to fetch 
 
 **Deliverables:**
 * Updated code files with Git commit history (delivered via Github or ZIP file).
-* A doc or text file including your rationale for the changes
+* A doc or text file including your rationale for the changes as the dot-points above specifies.
 
 ## Get started
 
@@ -36,7 +36,7 @@ This is an [Expo](https://expo.dev) project created with [`create-expo-app`](htt
 ### Troubleshooting
 
 After the first run you could get an error. In this case, create a file `local.properties` in the `android` folder (the one that was created after you started the app `/android`) and add the path to the Android SDK
-
+   ```
    sdk.dir=/Users/<username>/Library/Android/sdk
    ```
 
