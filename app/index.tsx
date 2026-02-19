@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import { Button, Text, View } from 'react-native';
 import { getBatteryLevel, getStatus } from '@/modules/batterystatus';
+import { GuestList } from './components/guest_list';
 
 export default function App() {
   const [level, setLevel] = useState(0);
@@ -25,6 +26,9 @@ export default function App() {
       <Text>Battery Level: {level}%</Text>
       <Text>Status: {status}</Text>
       <Button title="Check Now" onPress={handlePress} />
+      <View>
+        <GuestList />
+      </View>
     </View>
   );
 }
